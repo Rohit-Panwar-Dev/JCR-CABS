@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Roboto:wght@400;700&display=swap');
 *{
- margin: 0;
- padding: 0;
- font-family: 'Roboto', sans-serif;
- text-decoration: none !important;
- list-style: none !important;
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   text-decoration: none !important;
+   list-style: none !important;
 }
 body{
     overflow-x: hidden;
@@ -43,7 +43,7 @@ body{
 }
 .navbar-toggler {
     margin-top: 15px;
-    }
+}
 header {
     background: #373737;
     box-shadow: 0px 0px 15px #ccc;
@@ -71,19 +71,17 @@ header {
 
 }
 .nav-item a{
-   font-size: 12px;
-   padding-top: 10px;
-   font-weight: 600;
-   cursor: pointer;
+ font-size: 12px;
+ padding-top: 10px;
+ font-weight: 600;
+ cursor: pointer;
 }
 nav{
     background: white;
     height: 83px;
 }
 .logo {
-    position: absolute;
-    top: -23px;
-    left: 0 ;
+    margin-top: -54px;
     background: url(https://www.jcrcab.com/wp-content/themes/JCR_CAB/images/final.png);
     height: 35px;
     background-size: cover;
@@ -108,6 +106,7 @@ nav{
 }
 .navbar-nav li{
     padding-top: 7px;
+    text-align: left;
 }
 .carousel-control-prev-icon {
     left: 0px;
@@ -140,8 +139,8 @@ nav{
     padding: 70px 0px;
 }
 .welcome-to-jcr-p1 h3{
-font-family: 'Philosopher', sans-serif;
-letter-spacing: 1px;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 1px;
     font-weight: bolder;
 
 }
@@ -149,10 +148,10 @@ letter-spacing: 1px;
     display: none;
 }
 .welcome-to-jcr-p1 {
-   padding: 30px 20px;
+ padding: 30px 20px;
 }
 .bdr{
-     margin: 14px 0 20px;
+   margin: 14px 0 20px;
 }
 .welcome-to-jcr-p1 p {
     color: #4f4f4f;
@@ -171,7 +170,7 @@ letter-spacing: 1px;
     padding: 11px 0;
     background: #3e3e3e;
     font-size: 15px;
-      border: none;
+    border: none;
     outline: none;
     text-transform: capitalize;
     width: 125px !important;
@@ -188,9 +187,9 @@ letter-spacing: 1px;
 }
 .welcome{
     position: absolute;
-      top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .welcome h1 {
     font-family: 'Philosopher', sans-serif;
@@ -200,18 +199,18 @@ letter-spacing: 1px;
     color: #fff;
 }
 .welcome p {
-     font-family: 'Philosopher';
-    font-size: 22px;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    color: #cdcdcd;
-    line-height: 28px;
-    letter-spacing: 0.5px;
-    padding: 5px 44px;
+   font-family: 'Philosopher';
+   font-size: 22px;
+   margin-bottom: 15px;
+   margin-top: 20px;
+   color: #cdcdcd;
+   line-height: 28px;
+   letter-spacing: 0.5px;
+   padding: 5px 44px;
 }
 .rent h2{
     font-family: 'Philosopher', sans-serif;
-letter-spacing: 1px;
+    letter-spacing: 1px;
     font-weight: bolder;
 }
 .carsection {
@@ -224,8 +223,8 @@ letter-spacing: 1px;
     padding: 60px 0px;
 }
 .ourService h2{
-        font-family: 'Philosopher', sans-serif;
-letter-spacing: 1px;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 1px;
     font-weight: bolder;
 }
 .singleService {
@@ -289,7 +288,7 @@ letter-spacing: 1px;
     top: 0;
 }
 .cover-img:hover .slide-1{
-            top: 0px;
+    top: 0px;
 }
 .singleService h4 a {
     color: unset;
@@ -299,17 +298,17 @@ letter-spacing: 1px;
     padding: 85px 0;
 }
 .whyus h2 {
-            font-family: 'Philosopher', sans-serif;
-letter-spacing: 1px;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 1px;
     font-weight: bolder;
     color: #3e3e3e;
 }
 .whyus p{
-   font-family: 'Roboto', sans-serif;
-    color: #4f4f4f;
-    font-size: 16px;
-    line-height: 30px;
-    margin-bottom: 20px;
+ font-family: 'Roboto', sans-serif;
+ color: #4f4f4f;
+ font-size: 16px;
+ line-height: 30px;
+ margin-bottom: 20px;
 }
 .whyusP2 p {
     padding: 0 24% !important;
@@ -339,7 +338,7 @@ letter-spacing: 1px;
     font-size: 30px;
 }
 .card {
-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 5px 10px 0px #7777;
     color: #444444;
     margin-bottom: 15px;
@@ -356,7 +355,7 @@ border-radius: 0px 0px 10px 10px;
     border: none;
 }
 .footeraddres{
-        border-radius: 100%;
+    border-radius: 100%;
     height: 70px;
     width: 70px;
     border: 5px double #fff;
@@ -402,56 +401,55 @@ footer{
     color: #0b8cc5;
     font-size: 15px;
 }
-   .activeButton{
-            background-color: #009ddc !important;
-            color: white !important;
-        }
-        .tabP{
+.activeButton{
+    background-color: #009ddc !important;
+    color: white !important;
+}
+.tabP{
 
-            padding: 10px;
-        }
-        .content{
-            line-height: 25px;
-            display: none;
-            margin-bottom: 20px;
-        }
-        .activeContent{
-            display: block;
-        }
-        .tabContent{
-            margin: auto;
+    padding: 10px;
+}
+.content{
+    line-height: 25px;
+    display: none;
+    margin-bottom: 20px;
+}
+.activeContent{
+    display: block;
+}
+.tabContent{
+    margin: auto;
     border: 1px solid #777 !important;
     padding: 20px;
-background: rgba(255, 255, 255, 0.2);
-        }
-        .tabContent ul{
-            display: flex;
-            border-bottom: 2px solid #ddd;
-        }
-        .tabContent ul button{
-             padding: 10px 25px;
-            margin-right: 10px;
-            color: black;
-            cursor: pointer;
-            background-color: white;
-             border-radius: 4px 4px 0 0;
-            font-size: 16px;
-            font-weight: normal;
-            border: none;
-            margin-left: 10px;
-        }
-       .form-group button{
-        color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+.tabContent ul{
+    display: flex;
+    border-bottom: 2px solid #ddd;
+}
+.tabContent ul button{
+   padding: 10px 25px;
+   margin-right: 10px;
+   color: black;
+   cursor: pointer;
+   background-color: white;
+   border-radius: 4px 4px 0 0;
+   font-size: 16px;
+   font-weight: normal;
+   border: none;
+   margin-left: 10px;
+}
+.form-group button{
+    color: #fff;
     background-color: #337ab7;
     border-color: #2e6da4;
-                padding: 5px 5px;
-        }
-        .form-control{
+    padding: 5px 5px;
+}
+.form-control{
 
     -webkit-appearance: revert !important;
     -moz-appearance: revert !important;
     appearance: revert !important;
-  
+    
 }
-        }
 
