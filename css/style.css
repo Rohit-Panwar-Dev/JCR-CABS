@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Roboto', sans-serif;
+ text-decoration: none !important;
+ list-style: none !important;
+}
+body{
+    overflow-x: hidden;
+}
+.headerfixtop {
+    width: 100%;
+    height: 121px;
+}
+.headercontact {
+    padding: 5px 0;
+    text-align: right;
+
+}
+.headercontact a {
+    outline: 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-right: 20px;
+    font-family: Roboto;
+}
+
+.header_top a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: Roboto;
+}
+.social-icons {
+    color: #fff;
+    padding-top: 6px;
+}
+.social-icons span{
+    padding: 0px 10px;
+}
+.navbar-toggler {
+    margin-top: 15px;
+    }
+header {
+    background: #373737;
+    box-shadow: 0px 0px 15px #ccc;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+.header_top {
+    background: #373737;
+    font-weight: 700;
+}
+.slider{
+    display: block;
+    position: relative;
+}
+.main-header{
+    position: relative;
+}
+.btn-group button{
+    font-size: 12px;
+    padding-top: 8px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.nav-item a{
+   font-size: 12px;
+   padding-top: 10px;
+   font-weight: 600;
+   cursor: pointer;
+}
+nav{
+    background: white;
+    height: 83px;
+}
+.logo {
+    position: absolute;
+    top: -23px;
+    left: 0 ;
+    background: url(https://www.jcrcab.com/wp-content/themes/JCR_CAB/images/final.png);
+    height: 35px;
+    background-size: cover;
+    width: 300px;
+
+}
+.logo img{
+    margin-top: 10px;
+}
+.tabs{
+    width: 100%;
+}
+.translatebtn {
+    position: fixed;
+    right: 6%;
+    top: 7%;
+    padding-top: 5px;
+    z-index: 99;
+    font-weight: 700;
+    color: #009ddc;
+
+}
+.navbar-nav li{
+    padding-top: 7px;
+}
+.carousel-control-prev-icon {
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    padding: 8px 5px !important;
+    position: absolute;
+    width: 50px  !important;
+    height: 76px  !important;
+}
+.carousel-control-next-icon {
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    padding: 8px 5px !important;
+    position: absolute;
+    width: 50px  !important;
+    height: 76px  !important;
+}
+.navbar-toggler {
+    padding: 6px 15px !important;
+    font-size: 30px !important;
+    line-height: 1;
+    color: white !important;
+    background-color: #009ddc!important;
+}
+.navbar-toggler-icon {
+    font-size: 23px;
+    color: white;
+}
+.welcome-to-jcr{
+    padding: 70px 0px;
+}
+.welcome-to-jcr-p1 h3{
+font-family: 'Philosopher', sans-serif;
+letter-spacing: 1px;
+    font-weight: bolder;
+
+}
+.welcome-to-jcr-p1 p img{
+    display: none;
+}
+.welcome-to-jcr-p1 {
+   padding: 30px 20px;
+}
+.bdr{
+     margin: 14px 0 20px;
+}
+.welcome-to-jcr-p1 p {
+    color: #4f4f4f;
+    font-size: 16px;
+    padding-right: 55px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.welcome-to-jcr-p2 {
+    padding: 10px 10px;
+} 
+.readmore1 {
+    margin-top: 15px;
+    padding: 11px 0;
+    background: #3e3e3e;
+    font-size: 15px;
+      border: none;
+    outline: none;
+    text-transform: capitalize;
+    width: 125px !important;
+    color: #fff;
+}
+
+.readmore1:hover {
+    background: #337ab7;
+}
+.rent {
+    background: #f8f8f8;
+    padding: 85px 0;
+
+}
+.welcome{
+    position: absolute;
+      top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.welcome h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    font-size: 40px;
+    color: #fff;
+}
+.welcome p {
+     font-family: 'Philosopher';
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #cdcdcd;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    padding: 5px 44px;
+}
+.rent h2{
+    font-family: 'Philosopher', sans-serif;
+letter-spacing: 1px;
+    font-weight: bolder;
+}
+.carsection {
+    margin-top: -50px;
+}
+.carsection2 {
+    margin-top: -85px;
+}
+.ourService {
+    padding: 60px 0px;
+}
+.ourService h2{
+        font-family: 'Philosopher', sans-serif;
+letter-spacing: 1px;
+    font-weight: bolder;
+}
+.singleService {
+    overflow: hidden;
+    margin: 15px 0px;
+}
+.cover-img {
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+}
+.cover-img img {
+    width: 100%;
+    height: 100%;
+}
+.whatsapp{
+    text-align: center;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index: 888;
+    color: white;
+    display: flex;
+    justify-content: space-evely;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    background: #1dd332;
+}
+.whatsapp i{
+    margin: 10px 5px 10px 10px;
+    font-size: 20px;
+}
+.whatsapp p{
+    margin: 8px 0px;
+}
+.slide-1 {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+    border: 1px solid #ececec;
+    transition: 1s;
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    padding: 50px 10px 0px 10px;
+}
+.singleService h4 {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif !important;
+    padding: 15px 0px !important;
+    margin-bottom: 15px !important;
+    border: #d5d5d5 1px solid;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px 10px 0px #7777;
+    font-size: 20px;
+}
+.cover-img:hover.slide-1{
+    top: 0;
+}
+.cover-img:hover .slide-1{
+            top: 0px;
+}
+.singleService h4 a {
+    color: unset;
+    text-decoration: none;
+}
+.whyus , .discover{
+    padding: 85px 0;
+}
+.whyus h2 {
+            font-family: 'Philosopher', sans-serif;
+letter-spacing: 1px;
+    font-weight: bolder;
+    color: #3e3e3e;
+}
+.whyus p{
+   font-family: 'Roboto', sans-serif;
+    color: #4f4f4f;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.whyusP2 p {
+    padding: 0 24% !important;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px !important;
+}
+.whyusP2 .rotate:hover {
+    transition: 1s;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+.whyusP2{
+    padding-top: 40px;
+}
+.img-c{
+  mix-blend-mode: multiply;
+  filter: contrast(1);
+  rotate: none;
+}
+
+.discover h2 {
+    font-family: philosopher;
+    font-weight: 700;
+    color: #3e3e3e;
+    font-size: 30px;
+}
+.card {
+border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px 10px 0px #7777;
+    color: #444444;
+    margin-bottom: 15px;
+    height: 480px;
+}
+.btn-simple i,span{
+    opacity: 0.8;
+    color: #666666;
+    font-size: 18px;
+    background-color: transparent;
+}
+.btn-simple{
+    outline: none;
+    border: none;
+}
+.footeraddres{
+        border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    border: 5px double #fff;
+}
+.footeraddres i {
+    font-size: 30px;
+    color: #fff;
+    margin: 18px;
+}
+footer p{
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 9%;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #28292e;
+}
+.footer-link ul li {
+    display: inline-block;
+    margin-left: 0;
+    padding: 22px 12px;
+    transition: 0.6s;
+}
+.footer-link ul li a {
+    color: #fff;
+    font-size: 16px;
+    transition: 0.6s;
+}
+
+.footermain-bottom {
+    background: #373737;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.footermain-bottom, .footermain-bottom a, .footermain-bottom p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.footermain-bottom p span {
+    color: #0b8cc5;
+    font-size: 15px;
+}
+   .activeButton{
+            background-color: #009ddc !important;
+            color: white !important;
+        }
+        .tabP{
+
+            padding: 10px;
+        }
+        .content{
+            line-height: 25px;
+            display: none;
+            margin-bottom: 20px;
+        }
+        .activeContent{
+            display: block;
+        }
+        .tabContent{
+            margin: auto;
+    border: 1px solid #777 !important;
+    padding: 20px;
+background: rgba(255, 255, 255, 0.2);
+        }
+        .tabContent ul{
+            display: flex;
+            border-bottom: 2px solid #ddd;
+        }
+        .tabContent ul button{
+             padding: 10px 25px;
+            margin-right: 10px;
+            color: black;
+            cursor: pointer;
+            background-color: white;
+             border-radius: 4px 4px 0 0;
+            font-size: 16px;
+            font-weight: normal;
+            border: none;
+            margin-left: 10px;
+        }
+       .form-group button{
+        color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+                padding: 5px 5px;
+        }
+        .form-control{
+
+    -webkit-appearance: revert !important;
+    -moz-appearance: revert !important;
+    appearance: revert !important;
+  
+}
+        }
+
