@@ -1,20 +1,17 @@
 @media only screen and  (min-width: 200px) and (max-width: 576px){
 	.headercontact {
-	    padding: 5px 0;
-	     text-align: center;
+		padding: 5px 0;
+		text-align: center;
 	}
 	.social-icons span {
 		display: none;
 	}
 	.logo {
-    position: static;
-    background: none;
-    height: 0px;
-    background-size: none;
-    width: 0px;
+      margin-top: 0px;
+       background: none;
 	}
 	.singleService h4 a {
-    font-size: 20px;
+		font-size: 20px;
 	}
 	.logo img{
 		margin-top: 0px !important;
@@ -23,137 +20,129 @@
 		display: none;
 	}
 	.headercontact a,span {
-    font-size: 11px;
-    letter-spacing: 0.2px;
-    padding-right: 0px;
+		font-size: 11px;
+		letter-spacing: 0.2px;
+		padding-right: 0px;
 	}
-.welcome-to-jcr-p1 p img{
-    width: 60%;
-    float: left;
-    margin-right: 10px;
-    display: block;
-}
-.welcome-to-jcr-p2{
-	display: none;
-}
-.welcome-to-jcr-p1 p {
-    font-size: 15px;
-    padding-right: 0px !important;
-    line-height: 29px;
-    letter-spacing: 1px;
-    padding-bottom: 20px;
-    text-align: justify;
-}
+	.welcome-to-jcr-p1 p img{
+		width: 60%;
+		float: left;
+		margin-right: 10px;
+		display: block;
+	}
+	.welcome-to-jcr-p2{
+		display: none;
+	}
+	.welcome-to-jcr-p1 p {
+		font-size: 15px;
+		padding-right: 0px !important;
+		line-height: 29px;
+		letter-spacing: 1px;
+		padding-bottom: 20px;
+		text-align: justify;
+	}
 	.carsection,.carsection2,.whyus,.translatebtn {
 		display: none;
 	}
 	.welcome-to-jcr{
-    padding: 30px 0px;
+		padding: 30px 0px;
 	}
 	.whyus , .discover ,.rent{
-    padding: 30px 0;
-}
-       .form-group button{
-   	font-size: 14px;
-              padding: 2px 2px;
-        }
+		padding: 30px 0;
+	}
+	.form-group button{
+		font-size: 14px;
+		padding: 2px 2px;
+	}
 }
 
 @media only screen and  (min-width: 578px) and (max-width: 768px){
 	.headercontact {
-	    padding: 5px 0;
-	     text-align: center;
+		padding: 5px 0;
+		text-align: center;
 	}
 	.social-icons span {
 		display: none;
 	}
 	.headercontact a,span {
-    font-size: 12px;
-    letter-spacing: 0.2px;
-    padding-right: 0px;
+		font-size: 12px;
+		letter-spacing: 0.2px;
+		padding-right: 0px;
 	}
 	.logo {
-    position: static;
-    background: none;
-    height: 35px;
-    background-size: none;
-    width: 300px;
-
+      margin-top: 0px;
+       background: none;
 	}
 	.singleService h4 a {
-    font-size: 20px;
+		font-size: 20px;
 	}
 	.slider{
 		display: none;
 	}
 	.welcome-to-jcr-p1 p img{
-    width: 60%;
-    float: left;
-    margin-right: 10px;
-    display: block;
+		width: 60%;
+		float: left;
+		margin-right: 10px;
+		display: block;
 	}
 	.welcome-to-jcr-p1 p {
-    font-size: 15px;
-    padding-right: 0px !important;
-    line-height: 29px;
-    letter-spacing: 1px;
-    padding-bottom: 20px;
-    text-align: justify;
-}
-	.welcome-to-jcr{
-    padding: 30px 0px;
+		font-size: 15px;
+		padding-right: 0px !important;
+		line-height: 29px;
+		letter-spacing: 1px;
+		padding-bottom: 20px;
+		text-align: justify;
 	}
-		.carsection,.carsection2,.whyus,.welcome-to-jcr-p2,.translatebtn {
+	.welcome-to-jcr{
+		padding: 30px 0px;
+	}
+	.carsection,.carsection2,.whyus,.welcome-to-jcr-p2,.translatebtn {
 		display: none;
 	}
-	   .form-group button{
-   	font-size: 14px;
-              padding: 2px 2px;
-        }
+	.form-group button{
+		font-size: 14px;
+		padding: 2px 2px;
+	}
 }
 @media only screen and (min-width: 769px) and (max-width: 992px){
 	.headercontact {
-	    padding: 5px 0;
-	     text-align: center;
+		padding: 5px 0;
+		text-align: center;
 	}
 	.social-icons span {
 		display: none;
 	}
 	.logo {
-    position: static;
-    background: none;
-    height: 35px;
-    background-size: none;
-    width: 300px;
-
+      margin-top: 0px;
+      background: none;
 	}
 	.slider{
 		display: none;
 	}
-		.singleService h4 a {
-    font-size: 20px;
+	.singleService h4 a {
+		font-size: 20px;
 	}
 	.welcome-to-jcr-p1 p img{
-    width: 60%;
-    float: left;
-    margin-right: 10px;
-    display: block;
-}
-.welcome-to-jcr-p1 p {
-    font-size: 15px;
-    padding-right: 0px !important;
-    line-height: 29px;
-    letter-spacing: 1px;
-    padding-bottom: 20px;
-    text-align: justify;
-}
-.carsection,.carsection2,.whyus,.welcome-to-jcr-p2,.translatebtn {
+		width: 60%;
+		float: left;
+		margin-right: 10px;
+		display: block;
+	}
+	.welcome-to-jcr-p1 p {
+		font-size: 15px;
+		padding-right: 0px !important;
+		line-height: 29px;
+		letter-spacing: 1px;
+		padding-bottom: 20px;
+		text-align: justify;
+	}
+	.carsection,.carsection2,.whyus,.welcome-to-jcr-p2,.translatebtn {
 		display: none;
 	}
-	   .form-group button{
-   	font-size: 14px;
-              padding: 2px 2px;
-        }
+	.form-group button{
+		font-size: 14px;
+		padding: 2px 2px;
+	}
 }
 
 /*@media only screen and (min-width: 993px) and (max-width: 1400px){
