@@ -5,6 +5,7 @@
    font-family: 'Roboto', sans-serif;
    text-decoration: none !important;
    list-style: none !important;
+   scroll-behavior: smooth !important;
 }
 body{
     overflow-x: hidden;
@@ -109,6 +110,7 @@ nav{
     z-index: 99;
     font-weight: 700;
     color: #009ddc;
+    font-size: 14px;
 
 }
 .navbar-nav li{
